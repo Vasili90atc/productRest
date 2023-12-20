@@ -1,4 +1,4 @@
-package gr.atc.training.productRestAPI;
+package gr.atc.training.productRest;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -14,7 +14,7 @@ public class APIHandler {
 
 	ArrayList<Product> products = null;
 	
-	public void fetch_and_parse_products() {
+	public void fetchAndParseProducts(){
 		String str_url = "https://dummyjson.com/products";
 		StringBuffer content = new StringBuffer();
 		try {

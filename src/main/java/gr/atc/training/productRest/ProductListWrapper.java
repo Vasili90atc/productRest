@@ -1,4 +1,4 @@
-package gr.atc.training.productRestAPI;
+package gr.atc.training.productRest;
 
 import java.util.List;
 
